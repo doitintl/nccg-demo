@@ -13,15 +13,26 @@ The system is composed of several specialized agents that work in a sequential a
 ```mermaid
 graph TD
     A[User Input: Image + Dish Description] --> B[Orchestrator Agent]
+    
     B --> C[Visionary Chef Agent]
-    C --> D[Authenticator Agent]
-    D --> E[Dietary Detective Agent]
-    E --> F[Side Item Analyzer Agent]
-    F --> G[Culinary Wordsmith Agent]
-    G --> H[Final Output]
+    C --> B
+    
+    B --> D[Authenticator Agent]
+    D --> B
+    
+    B --> E[Dietary Detective Agent]
+    E --> B
+    
+    B --> F[Side Item Analyzer Agent]
+    F --> B
+    
+    B --> G[Culinary Wordsmith Agent]
+    G --> B
+    
+    B --> H[Final Output]
     
     style A fill:#e1f5fe,stroke:#01579b,stroke-width:1px,color:#01579b
-    style B fill:#e8eaf6,stroke:#3f51b5,stroke-width:2px,color:#3f51b5
+    style B fill:#e8eaf6,stroke:#3f51b5,stroke-width:2px,color:#3f51b5,font-weight:bold
     style C fill:#e3f2fd,stroke:#1976d2,stroke-width:1px,color:#1976d2
     style D fill:#e0f2f1,stroke:#00897b,stroke-width:1px,color:#00897b
     style E fill:#f1f8e9,stroke:#558b2f,stroke-width:1px,color:#558b2f
