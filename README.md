@@ -20,12 +20,14 @@ graph TD
     F --> G[Culinary Wordsmith Agent]
     G --> H[Final Output]
     
-    style B fill:#f9f,stroke:#333,stroke-width:2px
-    style C fill:#bbf,stroke:#333,stroke-width:1px
-    style D fill:#bbf,stroke:#333,stroke-width:1px
-    style E fill:#bbf,stroke:#333,stroke-width:1px
-    style F fill:#bbf,stroke:#333,stroke-width:1px
-    style G fill:#bbf,stroke:#333,stroke-width:1px
+    style A fill:#e1f5fe,stroke:#01579b,stroke-width:1px,color:#01579b
+    style B fill:#e8eaf6,stroke:#3f51b5,stroke-width:2px,color:#3f51b5
+    style C fill:#e3f2fd,stroke:#1976d2,stroke-width:1px,color:#1976d2
+    style D fill:#e0f2f1,stroke:#00897b,stroke-width:1px,color:#00897b
+    style E fill:#f1f8e9,stroke:#558b2f,stroke-width:1px,color:#558b2f
+    style F fill:#fff3e0,stroke:#ff8f00,stroke-width:1px,color:#ff8f00
+    style G fill:#fce4ec,stroke:#c2185b,stroke-width:1px,color:#c2185b
+    style H fill:#f3e5f5,stroke:#7b1fa2,stroke-width:1px,color:#7b1fa2
 ```
 
 ### Agent Roles and Responsibilities
