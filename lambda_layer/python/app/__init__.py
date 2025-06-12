@@ -1,0 +1,1 @@
+# Menu Maestro app package

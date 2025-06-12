@@ -1,0 +1,58 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Streamlit
+.streamlit/
+
+# AWS
+.aws/
+
+# Uploads folder
+uploads/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Terraform
+infra/lambda/terraform/.terraform/
+infra/lambda/terraform/.terraform.lock.hcl
+infra/lambda/terraform/terraform.tfstate
+infra/lambda/terraform/terraform.tfstate.backup
+infra/lambda/terraform/*.tfvars
+
+infra/bedrock/terraform/.terraform/
+infra/bedrock/terraform/.terraform.lock.hcl
+infra/bedrock/terraform/terraform.tfstate
+infra/bedrock/terraform/terraform.tfstate.backup
+infra/bedrock/terraform/*.tfvars
